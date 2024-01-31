@@ -1,10 +1,10 @@
-import requests
-import sys
-from bs4 import BeautifulSoup
-
 # Testing on Portswigger Academy Lab - API Testing - Lab: Exploiting an API endpoint using documentation
 # To solve the lab, find the exposed API documentation and delete carlos. You can log in to your own account using the following credentials: wiener:peter.
 # Credit: Kestrel.hzl
+
+import requests
+import sys
+from bs4 import BeautifulSoup
 
 args = sys.argv[1:]
 
@@ -15,7 +15,6 @@ if len(sys.argv)<4:
 target_url = args[0]
 username = args[1]
 password = args[2]
-
 
 # Get the CSRF Token
 def get_csrf_token(target_url, session):
