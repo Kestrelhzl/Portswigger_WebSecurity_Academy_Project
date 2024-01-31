@@ -1,9 +1,12 @@
+Portswigger Web Security Academy PoC Scripts
+===
+### Credit: Kestrel.hzl
+
 Hi There,
 
-Credit: Kestrel.hzl
 
-Here is Portswigger WebSecurity Academy API Testing lab poc scripts.
+Here is the Portswigger WebSecurity Academy API Testing lab poc scripts. enjoy.
 
-Usage:
+#### Usage:
 
 python3 <script.py> <base_url>
