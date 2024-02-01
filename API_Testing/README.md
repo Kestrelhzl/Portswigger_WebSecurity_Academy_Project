@@ -1,4 +1,4 @@
-API Testing Note
+API Testing
 ===
 
 ### Lab: Exploiting an API endpoint using documentation
