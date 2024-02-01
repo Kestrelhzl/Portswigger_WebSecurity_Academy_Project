@@ -1,0 +1,7 @@
+API Testing Lab Writeup
+===
+
+### Lab: Exploiting an API endpoint using documentation
+```
+To solve the lab, find the exposed API documentation and delete carlos. You can log in to your own account using the following credentials: wiener:peter.
+```
