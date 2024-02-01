@@ -107,9 +107,9 @@ def checkout_cart(base_url, session):
 
     data = "csrf=" + csrf_token
 
-    response = session.post(base_url + "/cart/checkout", data=data)
+    response = session.post(base_url + "/cart/checkout", data=data, allow_redirects=False)
 
-    if "Location: /cart/order-confirmation?order-confirmed=true" in response.headers:
+    if "/cart/order-confirmation?order-confirmed=true" in response.headers['Location']:
         print("Done!")
         sys.exit(1)
     
