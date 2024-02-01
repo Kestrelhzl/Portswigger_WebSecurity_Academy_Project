@@ -18,9 +18,9 @@ python3 1_Delete_User.py <base_url>
 
 > To solve the lab, exploit a hidden API endpoint to buy a Lightweight l33t Leather Jacket. You can log in to your own account using the following credentials: wiener:peter.
 
-* Change Price
-* Add Product to Cart
-* Checkout Cart
+* Change product price
+* Add product to cart
+* checkout cart
 
 
 ###### POC
