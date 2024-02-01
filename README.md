@@ -5,7 +5,7 @@ Portswigger Web Security Academy PoC Scripts
 Hi There,
 
 
-Here is the Portswigger WebSecurity Academy API Testing lab poc scripts. 
+Here is the Portswigger WebSecurity Academy lab poc scripts. 
 Enjoy.
 
 #### Usage:
