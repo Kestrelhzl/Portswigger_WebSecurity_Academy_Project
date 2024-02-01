@@ -20,8 +20,8 @@ args = sys.argv[1:]
 #password = args[2]
 
 if len(sys.argv)<2:
-    print("python3 login.py <base_url>")
-    print("Example: python3 login.py https://0a5900d80378f12686cae9f7004300d2.web-security-academy.net")
+    print("\nUsage:\npython3 login.py <base_url>\n")
+    print("Example: python3 login.py https://0a5900d80378f12686cae9f7004300d2.web-security-academy.net\n")
     sys.exit(1)
 
 base_url = args[0]
