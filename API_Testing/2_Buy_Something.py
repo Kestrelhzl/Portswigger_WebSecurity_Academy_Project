@@ -82,7 +82,7 @@ def add_cart(base_url, session):
     
     print("> Adding product to cart.")
 
-    data = "productId=1&redir=PRODUCT&quantity=3"
+    data = "productId=1&redir=PRODUCT&quantity=1"
 
     response = session.post(base_url + "/cart", data=data, allow_redirects=False)
 
