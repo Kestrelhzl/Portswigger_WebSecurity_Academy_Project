@@ -11,6 +11,8 @@ API Testing Note
 ```
 python3 1_Delete_User.py <base_url>
 ```
+<img width="803" alt="image" src="https://github.com/Kestrelhzl/Portswigger_WebSecurity_Academy_Project/assets/158291600/e9f6a170-cd14-46cc-95a3-3fa50864b4a0">
+
 
 ---
 
