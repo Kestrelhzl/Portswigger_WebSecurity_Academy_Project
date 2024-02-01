@@ -7,4 +7,9 @@ API Testing Note
 
 <img width="277" alt="image" src="https://github.com/Kestrelhzl/Portswigger_WebSecurity_Academy_Project/assets/158291600/179a45bb-368f-4c83-a248-d3fcb4fb2c70">
 
+###### POC
+```
+python3 1_Delete_User.py <base_url>
+```
+
 ---
