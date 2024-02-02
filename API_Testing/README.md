@@ -20,6 +20,13 @@ python3 1_Delete_User.py <base_url>
 
 ---
 
+### Lab: Exploiting server-side parameter pollution in a query string
+
+> To solve the lab, log in as the administrator and delete carlos.
+
+#### Main Points
+
+*
 
 
 
@@ -37,15 +44,17 @@ python3 1_Delete_User.py <base_url>
 #### Main Points
 
 * Change product price (need to add `Content-Type: application/json; charset=utf-8` on header.)
-* 
+ 
   <kbd><img width="963" alt="image" src="https://github.com/Kestrelhzl/Portswigger_WebSecurity_Academy_Project/assets/158291600/030e0bce-eca6-42c6-94f2-9b18748dffce">
 </kbd>
 
 * Add product to cart
+
   <kbd><img width="871" alt="image" src="https://github.com/Kestrelhzl/Portswigger_WebSecurity_Academy_Project/assets/158291600/5d669693-539c-4b74-accd-c348e0f3a6f6">
 </kbd>
 
 * checkout cart (need to get csrf token from path `/cart` first)
+  
   <kbd><img width="1043" alt="image" src="https://github.com/Kestrelhzl/Portswigger_WebSecurity_Academy_Project/assets/158291600/49fd1ea2-adb0-4651-86ad-5e0d6dfa9805">
 </kbd>
 
@@ -56,3 +65,22 @@ python3 3_Buy_Something.py <base_url>
 <img width="813" alt="image" src="https://github.com/Kestrelhzl/Portswigger_WebSecurity_Academy_Project/assets/158291600/621167fe-d875-43a3-888f-24c5b685d5d2">
 
 ---
+
+### Lab: Exploiting a mass assignment vulnerability
+
+> To solve the lab, find and exploit a mass assignment vulnerability to buy a Lightweight l33t Leather Jacket. You can log in to your own account using the following credentials: wiener:peter.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
