@@ -5,12 +5,14 @@ API Testing
 
 > To solve the lab, find the exposed API documentation and delete carlos. You can log in to your own account using the following credentials: wiener:peter.
 
+#### Main Points
+
 * Change url path to `/api/user/carlos`.
 * Change method to `DELETE`.
 
 <kbd><img width="277" alt="image" src="https://github.com/Kestrelhzl/Portswigger_WebSecurity_Academy_Project/assets/158291600/179a45bb-368f-4c83-a248-d3fcb4fb2c70"></kbd>
 
-###### POC
+#### POC
 ```
 python3 1_Delete_User.py <base_url>
 ```
@@ -18,22 +20,39 @@ python3 1_Delete_User.py <base_url>
 
 ---
 
+
+
+
+
+
+
+
+
+---
+
 ### Lab: Finding and exploiting an unused API endpoint
 
 > To solve the lab, exploit a hidden API endpoint to buy a Lightweight l33t Leather Jacket. You can log in to your own account using the following credentials: wiener:peter.
 
+#### Main Points
+
 * Change product price (need to add `Content-Type: application/json; charset=utf-8` on header.)
-<img width="616" alt="image" src="https://github.com/Kestrelhzl/Portswigger_WebSecurity_Academy_Project/assets/158291600/32d1efa8-0266-413d-b71c-7622cc692ec9">
+* 
+  <kbd><img width="963" alt="image" src="https://github.com/Kestrelhzl/Portswigger_WebSecurity_Academy_Project/assets/158291600/030e0bce-eca6-42c6-94f2-9b18748dffce">
+</kbd>
 
 * Add product to cart
-<img width="955" alt="image" src="https://github.com/Kestrelhzl/Portswigger_WebSecurity_Academy_Project/assets/158291600/120be92e-b183-47da-8bba-f89fc2ba1bee">
+  <kbd><img width="871" alt="image" src="https://github.com/Kestrelhzl/Portswigger_WebSecurity_Academy_Project/assets/158291600/5d669693-539c-4b74-accd-c348e0f3a6f6">
+</kbd>
 
+* checkout cart (need to get csrf token from path `/cart` first)
+  <kbd><img width="1043" alt="image" src="https://github.com/Kestrelhzl/Portswigger_WebSecurity_Academy_Project/assets/158291600/49fd1ea2-adb0-4651-86ad-5e0d6dfa9805">
+</kbd>
 
-* checkout cart
-
-
-###### POC
+#### POC
 ```
-python3 2_Buy_Something.py <base_url>
+python3 3_Buy_Something.py <base_url>
 ```
 <img width="813" alt="image" src="https://github.com/Kestrelhzl/Portswigger_WebSecurity_Academy_Project/assets/158291600/621167fe-d875-43a3-888f-24c5b685d5d2">
+
+---
