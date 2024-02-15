@@ -36,9 +36,13 @@ python3 1_Delete_User.py <base_url>
 <kbd><img width="805" alt="image" src="https://github.com/Kestrelhzl/Portswigger_WebSecurity_Academy_Project/assets/158291600/16d74075-ba01-44ef-974c-23aba55d6a5d">
 </kbd>
 
+<kbd><img width="1038" alt="image" src="https://github.com/Kestrelhzl/Portswigger_WebSecurity_Academy_Project/assets/158291600/9127e599-5bce-4ef9-8d74-5698ab5f6d58">
+</kbd>
 
+* login as administrator, and browse to admin plane delete carlos.
 
-
+<kbd><img width="871" alt="image" src="https://github.com/Kestrelhzl/Portswigger_WebSecurity_Academy_Project/assets/158291600/b9d5791a-6e6a-4b74-9d44-ebbfb1f0cbae">
+</kbd>
 
 
 
