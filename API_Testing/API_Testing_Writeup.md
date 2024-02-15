@@ -26,8 +26,15 @@ python3 1_Delete_User.py <base_url>
 
 #### Main Points
 
-*
+* Payload = `username=administrator%26field=reset_token%23`
 
+<kbd><img width="983" alt="image" src="https://github.com/Kestrelhzl/Portswigger_WebSecurity_Academy_Project/assets/158291600/8a971eb3-8705-47b1-87c0-70b165308110">
+</kbd>
+
+* `/forgot-password?reset_token=${resetToken}`
+
+<kbd><img width="805" alt="image" src="https://github.com/Kestrelhzl/Portswigger_WebSecurity_Academy_Project/assets/158291600/16d74075-ba01-44ef-974c-23aba55d6a5d">
+</kbd>
 
 
 
