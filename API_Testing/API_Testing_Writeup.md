@@ -84,7 +84,14 @@ python3 3_Buy_Something.py <base_url>
 
 
 
+---
+### Lab: Exploiting server-side parameter pollution in a REST URL
 
+> To solve the lab, log in as the administrator and delete carlos.
+
+#### Main Points
+
+* 
 
 
 
